@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/eclipse/p2/visualvm_launcher_u1_eclipse_36/plugins/org.eclipse.visualvm.launcher.common_1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/p2/visualvm_launcher_u1_eclipse_36/plugins/org.eclipse.visualvm.launcher.java_1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/p2/visualvm_launcher_u1_eclipse_36/plugins/org.eclipse.visualvm.launcher.pde_1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/p2/visualvm_launcher_u1_eclipse_36/features/VisualVM_Launcher_1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/p2/visualvm_launcher_u1_eclipse_36/artifacts.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/p2/visualvm_launcher_u1_eclipse_36/content.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/plugins/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
