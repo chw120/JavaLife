@@ -113,9 +113,26 @@ public class World {
 	 * Convert this World to a string for display.
 	 * @return String representation of world
 	 * 
-	 * this method has been refactored.
 	 */
 
+	/*	  before refactoring    */
+	//	public String toString() {
+	//		String toReturn = "  ";
+	//		for (int j= 0; j < _size; j++) {
+	//			toReturn += String.valueOf(j % 10);
+	//		}
+	//		toReturn += "\n";
+	//		for (int j = 0; j < _size; j++ ) {
+	//			toReturn += String.valueOf(j % 10) + " ";
+	//			for (int k = 0; k < _size; k++) {
+	//				toReturn += (_world[j][k].getStateRep());
+	//			}
+	//			toReturn += "\n";
+	//		}
+	//		return toReturn;
+	//	}
+
+	/*	  this method has been refactored.  */
 	public String toString() {
 		String rowReturn = "";
 		String colReturn = "  ";
@@ -132,6 +149,26 @@ public class World {
 		String toReturn = colReturn + "\n" + rowReturn;
 		return toReturn;
 	}
+
+	/*    correct refactoring    */
+	//	public String toString() {
+	//		StringBuilder toReturn = new StringBuilder();
+	//		toReturn.append("  ");
+	//		for (int j= 0; j < _size; j++) {
+	//			toReturn.append(String.valueOf(j % 10));
+	//		}
+	//		toReturn.append("\n");
+	//		for (int j = 0; j < _size; j++ ) {
+	//			toReturn.append(String.valueOf(j % 10) + " ");
+	//			for (int k = 0; k < _size; k++) {
+	//				toReturn.append(_world[j][k].getStateRep());
+	//			}
+	//			toReturn.append("\n");
+	//		}
+	//
+	//		return toReturn.toString();
+	//	}
+
 
 	/**
 	 * Generate initial game board.
